@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo img {
+  height: 50px; /* Ajuste conforme necessário */
+}
+
+nav {
+  flex-grow: 1;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.item-menu {
+  margin: 0 1rem;
+}
+
+.link-menu {
+  color: #fff;
+  background-color: #555;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.link-menu:hover {
+  background-color: #777;
+}
+
+.f {
+  background-color: #5b305a;
+}
+
+.l {
+  background-color: #e49756;
+}
+
+.m {
+  background-color: #e04b5a;
+}
+
+main {
+  background-color: #333;
+  color: #ddd;
+  padding: 1rem;
+}
+
+#principal {
+  display: flex;
+  align-items: center;
+}
+
+#principal figure {
+  margin: 0;
+}
+
+#principal img {
+  max-width: 300px; /* Ajuste conforme necessário */
+  height: auto;
+}
+
+#sec_ctd {
+  margin-left: 1rem;
+  flex: 1;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC';
+  margin: 0;
+}
+
+#second {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.cartaz {
+  margin: 0.5rem;
+  text-decoration: none;
+  max-width: 200px; /* Ajuste conforme necessário */
+}
+
+.capa {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+footer {
+  background-color: #333;
+  color: #ddd;
+  padding: 1rem;
+}
+
+#contato {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#email a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+#social a {
+  margin: 0 0.5rem;
+}
+
+#social img {
+  height: 30px; /* Ajuste conforme necessário */
+}
+
+#descricao {
+  margin: 1rem 0;
+}
+
+#descricao h3 {
+  margin-top: 0;
+}
+
+#descricao ol, #descricao ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+#descricao li {
+  margin-bottom: 0.5rem;
+}
+
+#acesso {
+  margin-top: 1rem;
+}
+
+#acesso a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#acesso a:hover {
+  text-decoration: underline;
+}
+
+#acesso img {
+  height: 30px; /* Ajuste conforme necessário */
+}
